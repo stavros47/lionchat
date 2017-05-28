@@ -6,9 +6,9 @@ var port = 3000;
 users = [];
 connections = [];
 
-server.listen(process.env.PORT || port);
-console.log("server Running..");
+server.listen(port);
+console.log("Server Running..");
 
-app.get('/', function(){
+app.get('/', function(req, res){
   res.sendFile(__dirname + '/index.html');
 });
