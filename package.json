@@ -5,9 +5,12 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+
   },
+  "chromium-args" : "--enable-logging=stderr",
   "author": "",
   "license": "ISC",
+
   "dependencies": {
     "socket.io": "*",
     "express": "*"
