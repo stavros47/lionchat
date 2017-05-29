@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lion CHat</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <h1>Lion Chat</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="well">
+            <h1>Online</h1>
+            <ul class="list-group">
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="chat" id="chat">
+            <form action="" id="messageForm">
+              <div class="form-group">
+                <label>Enter Message</label>
+                <textarea id="message" class="form-control"></textarea>
+                <br>
+                <input type="submit" class="btn btn-primary" value="Send Message"></div>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
